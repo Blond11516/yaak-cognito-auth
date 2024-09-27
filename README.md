@@ -5,6 +5,7 @@ A [Yaak](https://yaak.app) plugin that provides functions to ease authentication
 ## Available functions
 
 - `cognitoUserPassword`: Uses the username-password flow to authenticate with Cognito User Pools. Returns the access JWT.
+- `cognitoFederatedIdp`: Uses Cognito's OAuth federation feature to log in with only an email. Returns the access JWT.
 
 ## Planned features
 
